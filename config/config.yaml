@@ -19,12 +19,12 @@ app:
   # 完整时区列表: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   timezone: "Asia/Shanghai"
   notification:
-  enabled: true
   push_window:
     enabled: true
-    start: "20:00"
+    start: "08:00"
     end: "22:00"
-    once_per_day: true
+    once_per_day: false
+
   show_version_update: true           # 显示版本更新提示
 
 
